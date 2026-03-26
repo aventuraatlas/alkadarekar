@@ -1,4 +1,3 @@
-
 import Image from 'next/image';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 import { AnimatedSection } from '@/components/AnimatedSection';
@@ -9,8 +8,11 @@ export default function Home() {
 
   return (
     <main className="min-h-screen max-w-md mx-auto relative overflow-x-hidden pb-20">
+      {/* Background Sparkles */}
+      <div className="sparkle-overlay" />
+
       {/* Hero Section */}
-      <section className="relative w-full aspect-[4/5] overflow-hidden">
+      <section className="relative w-full aspect-[4/5] overflow-hidden z-10">
         {heroImage && (
           <div className="relative w-full h-full hero-fade-bottom">
             <Image
@@ -33,7 +35,7 @@ export default function Home() {
       </section>
 
       {/* Main Narrative Content */}
-      <div className="px-6 space-y-12">
+      <div className="px-6 space-y-12 relative z-10">
         {/* Intro */}
         <AnimatedSection className="text-center">
           <p className="font-body text-lg leading-relaxed text-muted-foreground italic">
