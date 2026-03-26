@@ -1,3 +1,4 @@
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -47,40 +48,40 @@
   -webkit-mask-image: linear-gradient(to bottom, black 60%, transparent 100%);
 }
 
-/* Enhanced Golden Sparkle Background Effect */
+/* Enhanced Golden Sparkle Background Effect - Larger and More Visible */
 .sparkle-overlay {
   position: fixed;
   inset: 0;
   pointer-events: none;
   z-index: 0;
-  opacity: 0.25; /* Increased visibility */
+  opacity: 0.3;
   background-image: 
-    radial-gradient(3px 3px at 20px 30px, #FBBF24, transparent),
-    radial-gradient(4px 4px at 40px 70px, #F59E0B, transparent),
-    radial-gradient(2px 2px at 50px 160px, #FBBF24, transparent),
-    radial-gradient(5px 5px at 90px 40px, #F59E0B, transparent),
-    radial-gradient(3px 3px at 130px 80px, #FBBF24, transparent),
-    radial-gradient(4px 4px at 160px 120px, #F59E0B, transparent);
+    radial-gradient(8px 8px at 20px 30px, #FBBF24, transparent),
+    radial-gradient(10px 10px at 40px 70px, #F59E0B, transparent),
+    radial-gradient(6px 6px at 50px 160px, #FBBF24, transparent),
+    radial-gradient(12px 12px at 90px 40px, #F59E0B, transparent),
+    radial-gradient(8px 8px at 130px 80px, #FBBF24, transparent),
+    radial-gradient(10px 10px at 160px 120px, #F59E0B, transparent);
   background-repeat: repeat;
-  background-size: 250px 250px;
-  animation: sparkle-float 12s linear infinite;
+  background-size: 300px 300px;
+  animation: sparkle-float 15s linear infinite;
 }
 
 @keyframes sparkle-float {
   from { background-position: 0 0; }
-  to { background-position: 0 250px; }
+  to { background-position: 0 300px; }
 }
 
 @keyframes shimmer {
-  0%, 100% { opacity: 0.15; }
-  50% { opacity: 0.45; } /* Brighter shimmer */
+  0%, 100% { opacity: 0.2; }
+  50% { opacity: 0.6; }
 }
 
 .sparkle-overlay::after {
   content: '';
   position: absolute;
   inset: 0;
-  background-image: radial-gradient(circle at center, #FBBF24 2px, transparent 4px);
-  background-size: 80px 80px;
-  animation: shimmer 5s infinite ease-in-out;
+  background-image: radial-gradient(circle at center, #FBBF24 3px, transparent 6px);
+  background-size: 100px 100px;
+  animation: shimmer 4s infinite ease-in-out;
 }
