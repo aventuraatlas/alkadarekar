@@ -11,19 +11,19 @@
     --card-foreground: 285 10% 96%;
     --popover: 285 14% 14%;
     --popover-foreground: 285 10% 96%;
-    --primary: 261 44% 31%;
+    --primary: 38 92% 30%;
     --primary-foreground: 0 0% 100%;
     --secondary: 285 14% 17%;
     --secondary-foreground: 285 10% 96%;
     --muted: 285 14% 20%;
     --muted-foreground: 285 10% 62%;
-    --accent: 249 88% 58%;
+    --accent: 38 92% 50%;
     --accent-foreground: 0 0% 100%;
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 98%;
     --border: 285 14% 22%;
     --input: 285 14% 22%;
-    --ring: 249 88% 58%;
+    --ring: 38 92% 50%;
     --radius: 0.75rem;
   }
 }
@@ -38,7 +38,7 @@
 }
 
 .text-gradient {
-  background: linear-gradient(135deg, #5538F2 0%, #442C70 100%);
+  background: linear-gradient(135deg, #F59E0B 0%, #B45309 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }

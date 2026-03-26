@@ -27,7 +27,7 @@ export default {
           foreground: '#F5F3F7',
         },
         primary: {
-          DEFAULT: '#442C70',
+          DEFAULT: '#B45309',
           foreground: '#FFFFFF',
         },
         secondary: {
@@ -39,7 +39,7 @@ export default {
           foreground: '#A194A8',
         },
         accent: {
-          DEFAULT: '#5538F2',
+          DEFAULT: '#F59E0B',
           foreground: '#FFFFFF',
         },
         destructive: {
@@ -48,7 +48,7 @@ export default {
         },
         border: '#352B38',
         input: '#352B38',
-        ring: '#5538F2',
+        ring: '#F59E0B',
         chart: {
           '1': 'hsl(var(--chart-1))',
           '2': 'hsl(var(--chart-2))',
