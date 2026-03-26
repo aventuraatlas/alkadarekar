@@ -154,10 +154,6 @@ export default function Home() {
               <Heart className="h-5 w-5 fill-current" />
             </div>
           </AnimatedSection>
-
-          <AnimatedSection className="text-right pt-10 pb-20">
-            <p className="font-headline text-2xl text-accent-foreground font-bold">— तुझ्या लेकरांकडून, मनापासून! 🙏🎂</p>
-          </AnimatedSection>
         </div>
       </div>
     </main>

@@ -5,25 +5,25 @@
 
 @layer base {
   :root {
-    --background: 285 11% 10%;
-    --foreground: 285 10% 96%;
-    --card: 285 14% 14%;
-    --card-foreground: 285 10% 96%;
-    --popover: 285 14% 14%;
-    --popover-foreground: 285 10% 96%;
-    --primary: 38 92% 30%;
-    --primary-foreground: 0 0% 100%;
-    --secondary: 285 14% 17%;
-    --secondary-foreground: 285 10% 96%;
-    --muted: 285 14% 20%;
-    --muted-foreground: 285 10% 62%;
-    --accent: 38 92% 50%;
-    --accent-foreground: 0 0% 100%;
+    --background: 32 20% 8%;
+    --foreground: 45 15% 96%;
+    --card: 32 20% 12%;
+    --card-foreground: 45 15% 96%;
+    --popover: 32 20% 12%;
+    --popover-foreground: 45 15% 96%;
+    --primary: 38 92% 50%;
+    --primary-foreground: 32 20% 8%;
+    --secondary: 32 20% 15%;
+    --secondary-foreground: 45 15% 96%;
+    --muted: 32 20% 20%;
+    --muted-foreground: 40 10% 65%;
+    --accent: 42 100% 50%;
+    --accent-foreground: 32 20% 8%;
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 98%;
-    --border: 285 14% 22%;
-    --input: 285 14% 22%;
-    --ring: 38 92% 50%;
+    --border: 32 20% 22%;
+    --input: 32 20% 22%;
+    --ring: 42 100% 50%;
     --radius: 0.75rem;
   }
 }
@@ -38,7 +38,7 @@
 }
 
 .text-gradient {
-  background: linear-gradient(135deg, #F59E0B 0%, #B45309 100%);
+  background: linear-gradient(135deg, #F59E0B 0%, #D97706 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
